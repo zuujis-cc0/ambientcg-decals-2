@@ -1,0 +1,19 @@
+[gd_resource type="StandardMaterial3D" load_steps=6 format=3 uid="acg_5ymskwre"]
+
+[ext_resource type="Texture2D" uid="uid://acg_82b75phu" id="Color" path="./RoadLines025A_2K-JPG_Color.jpg"]
+[ext_resource type="Texture2D" uid="uid://acg_t9knuicy" id="AmbientOcclusion" path="./RoadLines025A_2K-JPG_AmbientOcclusion.jpg"]
+[ext_resource type="Texture2D" uid="uid://acg_ip4yfkv6" id="Displacement" path="./RoadLines025A_2K-JPG_Displacement.jpg"]
+[ext_resource type="Texture2D" uid="uid://acg_92ymbipn" id="Roughness" path="./RoadLines025A_2K-JPG_Roughness.jpg"]
+[ext_resource type="Texture2D" uid="uid://acg_0dy5jogc" id="NormalGL" path="./RoadLines025A_2K-JPG_NormalGL.jpg"]
+[resource]
+albedo_texture = ExtResource("Color")
+ao_enabled = true
+ao_texture = ExtResource("AmbientOcclusion")
+ao_texture_channel = 4
+roughness_texture = ExtResource("Roughness")
+roughness_texture_channel = 4
+normal_texture = ExtResource("NormalGL")
+normal_enabled = true
+heightmap_texture = ExtResource("Displacement")
+heightmap_scale = 1.0
+heightmap_enabled = true
